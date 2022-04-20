@@ -18,7 +18,7 @@
 body
 {
     font-family: var(--font-SessaoDoces);
-    background-image: url(imagens/coelho.png);
+    background-color: var(--cor1);
 }
 
 /* Inicio - Cabeçalho */
@@ -160,97 +160,40 @@ main > div > a > h3:hover
 /* Fim - Principal */
 
 /* Inicio - Seção de doces */
-
-section
-{
-    height: 630px; 
-    padding: 80px 0px;
-    color: var(--cor3);
-    text-decoration: underline;
-    text-shadow: 1px 1px 3px black;
-    background-color: white;
-    width: 50%;
-    margin: 30px auto;
-    text-align: center;
-    border-radius: 40px;
-    border: 5px solid var(--cor3);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
-}
-
 section h2
 {
-    margin-bottom: 50px;
+    margin: 50px 0px;
     font-family: var(--font-SessaoDoces);
     font-size: 50px;
+    color: var(--cor3);
+    text-decoration: underline;text-shadow: 1px 1px 3px black;text-align: center;
 }
 /* Fim - Seção de doces */
 
-/* Inicio - Carrossel  */
-.carrossel
+/* Início - Img Seção doces */
+section div
 {
-    width: 500px;
-    height: 500px;
+    background-color: white;
+    width: 700px;
+    text-align: center;
     margin: auto;
+    border: 5px solid var(--cor3);
+    border-radius: 50px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.614);
 }
 
-.items
+section li
 {
-    display: flex;
+
+}
+
+section img
+{
     border: 5px solid var(--cor3);
     border-radius: 50%;
-    box-shadow: 2px 2px 10px black;
-    overflow-x: hidden;  /* barra de rolagem na div */
-
-     /* comando para ser executado no eixo x, obrigatoriamente (mandatory) */
-    scroll-snap-type: x mandatory;
-
-     /* Rolagem por touch */
-    -webkit-overflow-scrolling: touch;
+    margin: 15px 15px;
 }
-
-.item
-{
-     /* o comando obrigatorio que será executado é para não deixar a imagem na metade usando a barra de rolagem e a imagem sempre aparecer no inicio dela */
-    scroll-snap-align: start;
-     position: relative;
-    animation: slide 10s infinite ease-out; 
-}
-
- @keyframes slide{
-    0%{left: 0px}
-    10%{left: -500px}
-    50%{left: -500px}
-    60%{left: 0px}
-    100%{left: 0px}
-} 
-
-/* Fim - Carrossel */
-
-/* Inicio - Carrossel Pascoa */
-.itemP
-{
-     /* o comando obrigatorio que será executado é para não deixar a imagem na metade usando a barra de rolagem e a imagem sempre aparecer no inicio dela */
-    scroll-snap-align: start;
-    position: relative;
-    animation: slideP 30s infinite ease-out;
-
-}
-
- @keyframes slideP{
-    0%{left: 0px}
-    3%{left: -500px}
-    16%{left: -500px}
-    19%{left: -1000px}
-    32%{left: -1000px}
-    35%{left: -1500px}
-    48%{left: -1500px}
-    51%{left: -2000px}
-    64%{left: -2000px}
-    67%{left: -2500px}
-    80%{left: -2500px}
-    83%{left: 0px}
-} 
-/* Fim - Carrossel Pascoa */
+/* Fim - Img Seção doces */
 
 footer
 {
@@ -266,6 +209,7 @@ footer
     font-weight: bolder;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.63);
     padding: 10px;
+    margin-top: 50px;
 }
 
 footer a
