@@ -16,12 +16,23 @@
         <div id="logo" class="cabeçalho">
             <img src="imagens/logo juju.jpeg" alt="">
         </div>
+
         <nav class="cabeçalho">
-            <div>
-                <div onclick="AbrirInsta()" id="insta" class="acessar"> Intagram </div>
-                <div onclick="AbrirWpp()" id="wpp" class="acessar"> WhatsApp </div>
-                <div onclick="AbrirIfood()" id="delivery" class="acessar"> Ifood </div>
+            <h1 id="ctt">Contatos</h1>
+            <div id="menu-bar">
+                <div id="menu" onclick="ClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+        
+                <ul class="nav" id="nav">
+                    <li class="acessar" id="insta" onclick="AbrirInsta()"></li>
+                    <li class="acessar" id="wpp" onclick="AbrirWpp()"></li>
+                    <li class="acessar" id="delivery" onclick="AbrirIfood()"></li>
+                </ul>
             </div>
+            <div class="menu-bg" id="menu-bg"></div>
         </nav>
     </header>
 
@@ -53,21 +64,21 @@
 
     <section id="sessaoP">
         <h2>Páscoa</h2>
-        <div>
-            <ul>
-                <li><img src="imagens/ovo de pascoa.jpeg" alt=""></li>
-                <li><img src="imagens/ovo brigadeiro.png" alt=""></li>
-                <li><img src="imagens/ovo kinder.png" alt=""></li>
-                <li><img src="imagens/ovo oreo.png" alt=""></li>
-                <li><img src="imagens/ovo prestigio.png" alt=""></li>
-                <li><img src="imagens/ovo confeiteiro.png" alt=""></li>
-            </ul>
+        <div class="vitrine">
+            <div>
+                <img src="imagens/ovo de pascoa.jpeg" alt="">
+                <img src="imagens/ovo brigadeiro.png" alt="">
+                <img src="imagens/ovo kinder.png" alt="">
+                <img src="imagens/ovo oreo.png" alt="">
+                <img src="imagens/ovo prestigio.png" alt="">
+                <img src="imagens/ovo confeiteiro.png" alt="">
+            </div>
         </div>
     </section>
 
     <section id="sessaoBA">
         <h2>Bombom Aberto</h2>
-        <div>
+        <div class="vitrine">
             <img src="imagens/bombom aberto morango.png" alt="">
             <img src="imagens/bombom aberto uva.png" alt="">
         </div>
@@ -75,7 +86,7 @@
 
     <section id="sessaoSB">
         <h2>Sanduíche de Brownie</h2>
-        <div>
+        <div class="vitrine">
             <img src="imagens/sanduiche brigadeiro.png" alt="">
             <img src="imagens/sanduiche nutella e ninho.png" alt="">
         </div>
@@ -83,7 +94,7 @@
 
     <section id="sessaoBB">
         <h2>Baby Brownie</h2>
-        <div>
+        <div class="vitrine">
             <img src="imagens/potinho feliz nutella.png" alt="">
             <img src="imagens/potinho feliz.png" alt="">
         </div>
@@ -91,7 +102,7 @@
 
     
     <footer> 
-        <p>Nos consulte via ▸<a href="https://api.whatsapp.com/send?phone=5531982961127">WhatsApp</a>◂ para saber mais sobre os produtos e valores!</p>
+        <p>Entre em contato para saber mais sobre os produtos e valores!</p>
     </footer>
 
     <script src="Script.js"></script>
