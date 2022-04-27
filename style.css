@@ -22,7 +22,6 @@ body
 }
 
 /* Inicio - Cabeçalho */
-
 header
 {
     text-align: center;
@@ -49,6 +48,7 @@ h1#ctt
     margin: -12px 0px 0px 0px;
     font-size: 30px;
 }
+
 #menu{
     width: 35px;
     height: 30px;
@@ -276,9 +276,9 @@ section#sessaoP div
     -webkit-overflow-scrolling: touch;
 }
 /* Fim - Img Seção doces */
-
 /* Fim - Seção de doces */
 
+/* Início - Rodapé */
 footer
 {
     background-color: white;
@@ -302,3 +302,6 @@ footer a
     text-decoration: none;
     color: black;
 }
+/* Fim - Rodapé */
+
+/* Início -  Responsividade */
