@@ -185,7 +185,7 @@ main
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
+    height: 400px;
     text-align: center;
 }
 
@@ -193,7 +193,7 @@ main > div > h1
 {
     background-color: var(--cor1);
     width: 700px;
-    margin: 40px auto 0px auto;
+    margin: 20px auto 0px auto;
     padding: 10px;
     border: 3px solid var(--cor3);
     border-radius: 15px;
@@ -205,7 +205,7 @@ main > div > h1
 main > div > h2 , h3
 {
     background-color: var(--cor1);
-    width: 210px;
+    width: 200px;
     margin: 40px auto 0px auto;
     padding: 10px;
     border: 3px solid var(--cor3);
@@ -218,20 +218,15 @@ main > div > h2 , h3
 main > div > a
 {
     display: inline-flex;
-    margin: 150px 20px;
+    margin: 0px 10px;
     text-decoration: none;
+    width: 270px;
 }
 
 main > div > a > h3
 {
     color: black;
     width: 285px;
-}
-
-main > div > a > h3#P:hover
-{
-    background-image: url(imagens/coelho.png);
-    background-position: bottom left;
 }
 
 main > div > a > h3:hover
@@ -249,7 +244,8 @@ section h2
     font-family: var(--font-SessaoDoces);
     font-size: 50px;
     color: var(--cor3);
-    text-decoration: underline;text-shadow: 1px 1px 3px black;text-align: center;
+    text-decoration: underline;text-shadow: 1px 1px 3px #f9ea9f;
+    text-align: center;
 }
 
 /* Início - Img Seção doces */
@@ -271,7 +267,7 @@ section img
     margin: 15px 15px;
 }
 
-section#sessaoP div
+section#sessaoP div, section#sessaoBB div
 {
     display: flex;
     overflow-x: auto;
